@@ -1,0 +1,80 @@
+{%extends "layout.html"%}
+{%block content%}
+<div class="home" style="background-color:black">
+    <h1  style="text-align: center">Learn how to create a simple Html5 website</h1>
+    <center><h4 style="color: red">Created by alekishon</h4></center>
+
+<table width=100% style="color: white">
+    <tr>
+    <td width=80%; height= 100%>
+        <h3>Home</h3>
+        <p>Our awesome templetes include responsive web templetes HTML5, CSS & Query website templetes, single page website templetes, Flash templetes, ecommerce websites templetes, wordpress themes, joomes templetes, Facebook templetes and more. Our templetes includes the source files so it can be customized completely.</p>
+        <p>Our latest templetes are on the cutting age of web design and technology and include amazing features like homepage, intro slideshows animation powered by jQuery, drop down menus, custom text, full screen background images, contac us terms, google maps, social networking icons, rollover effects, photo gallaries and more click on the live demo buttonin the preview page to see all the cool features live online.</p>
+        
+        <h2>Website Templates</h2>
+        <table style="margin:10px; color: white; border-spacing: 20px">
+        <tr>
+            <td style="border: 1px solid white; padding: 5px">
+            <img src="{{url_for('static', filename='d1.jpg')}}" width="280px" height="300px">
+                <p>Template No 43275</p>
+                <p>Type <b style="color: yellow">Wordpess</b></p>
+            </td>
+            <td style="border: 1px solid white; padding: 5px">
+            <img src="{{url_for('static', filename='d2.jpg')}}" width="280px" height="300px">
+                <p>Template No 43006</p>
+                <p>Type <b style="color: yellow">Virtuemart</b></p>
+            </td>
+            <td style="border: 1px solid white; padding: 5px">
+            <img src="{{url_for('static', filename='d5.jpg')}}" width="280px" height="300px">
+                <p>Template No 38943</p>
+                <p>Type <b style="color: yellow">Responsive web</b></p>
+            </td>
+        </tr>
+            <tr>
+            <td style="border: 1px solid white; padding: 5px">
+                <img src="{{url_for('static', filename='d3.jpg')}}" width="280px" height="300px">
+                <p>Template No 43367</p>
+                <p>Type <b style="color: yellow">Joomla</b></p>
+                </td>
+            <td style="border: 1px solid white; padding: 5px">
+                <img src="{{url_for('static', filename='d4.jpg')}}" width="280px" height="300px">
+                <p>Template No 43189</p>
+                <p>Type <b style="color: yellow">Drupal</b></p>
+                </td>
+                <td style="border: 1px solid white; padding: 5px">
+            <img src="{{url_for('static', filename='d6.jpg')}}" width="280px" height="300px">
+                <p>Template No 33934</p>
+                <p>Type <b style="color: yellow">JS Animated FullSize</b></p>
+            </td>
+            </tr>
+        
+        </table>
+        
+    </td>
+    <td style="text-decoration-color: white; background-color: gray; height: 100%; padding-top: 0pxl">
+       <h3>Blog</h3>
+        <p>The Entheosweb Blog is the best resource file for Graphic & Web Design Tutorial and Resourses</p>
+            <ul style="color: yellow">
+        <li>
+           Tutorials 
+        </li>
+                <li>Ideas & Inspiration</li>
+                <li>Best resourses</li>
+                <li>Features</li>
+        </ul>
+        
+        <p>You will find tutorials on photoshop, illustrator, flash filmworks and more and also many freelance wallpapers, backgrounds, business cards, vector art and more.</p>
+        <p>Join us on <b style="color: yellow">Facebook</b> to keep updated on the latest and best design resourses.</p>
+        <img src="{{url_for('static', filename='dis.jpg')}}">
+        <p>Templete Number 33501</p>
+        <p>Type <b style="color: yellow">JS Animated Full Site</b></p><br>
+        <h3>Free Design Tutorials and Resources</h3>
+        <p>Learn to create awesome text and image effects, Posters, flyers, bronchures, icons, logos, cutting age of web design and technology and include amazing features like homepage, intro slideshows animation powered by jQuery, drop down menus, custom text, full screen background images, contac us terms, google maps, and business card layout. </p>
+        </td>
+    </tr>
+    
+
+    </table>   
+
+</div>
+{%endblock%}
